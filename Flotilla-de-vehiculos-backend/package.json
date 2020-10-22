@@ -1,0 +1,8 @@
+{
+  "name": "Flotilla-de-vehiculos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bgomez-2015482/Flotilla-de-vehiculos.git",
+  "author": "Bryan Gomez",
+  "license": "MIT"
+}
