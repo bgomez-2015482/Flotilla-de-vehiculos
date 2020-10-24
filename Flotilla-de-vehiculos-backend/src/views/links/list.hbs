@@ -1,0 +1,33 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each links}}
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                        <h3 class="card-title text-uppercase">
+                            {{placa}}
+                        </h3>
+                        <h5 class="card-title text-uppercase">
+                            {{marca}}
+                        </h5>
+                        <h6 class="card-title text-uppercase">
+                            {{modelo}}
+                            {{año}}
+                        </h6>
+                        <p class="m-2">{{estado}}</p>
+                        <p class="m-2">{{timeago created_at}}</p>
+                        <a href="/links/delete/{{codigovehiculo}}" class="btn btn-danger">Delete</a>
+                        <a href="/links/edit/{{codigovehiculo}}" class="btn btn-primary">Edit</a>  
+                </div>
+            </div>
+        </div>
+        {{else}}
+            <div class="col-md-4 mx-auto">
+                <div class="card card-body text-center">
+                    <p>No hay datos para motrar, por favor agrega uno nuevo.</p>
+                    <a href="/links/add" class="btn btn-success">Agregar</a>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

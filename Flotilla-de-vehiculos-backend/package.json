@@ -1,8 +1,26 @@
 {
-  "name": "Flotilla-de-vehiculos",
+  "name": "flotilla-de-vehiculos",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/"
+  },
   "repository": "https://github.com/bgomez-2015482/Flotilla-de-vehiculos.git",
   "author": "Bryan Gomez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
