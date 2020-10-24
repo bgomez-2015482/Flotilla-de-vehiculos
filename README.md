@@ -1,6 +1,6 @@
 # Flotilla-de-vehiculos
 
-##Recursos necesarios
+## Recursos necesarios
 Antes de poder ejecutar la aplicación es necesario que se disponga de varias dependencias, para instalarlos basta con ejecutar el comando para instalar dependencias ya sea npm install o yarn install.
 
 ## Como ejecutar la aplicación
